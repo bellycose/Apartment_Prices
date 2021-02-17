@@ -8,7 +8,7 @@ Donald Cao|cao.donald89@gmail.com|[bellycose](https://github.com/bellycose "gith
 
 To confirm if apartment rent costs are influenced by the population of resident living there?
 
-This project is an attempt at data science. It uses web scraping and statistical analysis with python, while tabulating with CSV.
+This project is an attempt at data science. It uses web scraping and statistical analysis with python, while tabulating with CSV from python.
 
 ### Softwares/Dependencies
 - Python
@@ -30,3 +30,9 @@ This project is an attempt at data science. It uses web scraping and statistical
 3. Draw informations with Pandas and Matplotlib.
 4. Convey information about the population.
 5. Write a conclusion and document report.
+---
+### Data
+
+### Visuals
+
+### Conclusion
