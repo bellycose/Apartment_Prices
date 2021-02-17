@@ -3,7 +3,7 @@
 ### Contact
 |Name|Email|Github|Website|
 |----|-----|------|-------|
-Donald Cao|cao.donald89@gmail.com|[bellycose](https://github.com/bellycose "github")|[link](URL"Portfolio")
+Donald Cao|cao.donald89@gmail.com|[bellycose](https://github.com/bellycose "github")|
 ### Purpose
 
 To confirm if apartment rent costs are influenced by the population of resident living there?
