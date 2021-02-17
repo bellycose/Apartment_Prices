@@ -1,4 +1,4 @@
-# Lottery_Guess
+# Apartment Prices
 
 ### Contact
 |Name|Email|Github|Website|
