@@ -36,4 +36,21 @@ print(f'Menlo Park:\n{bdmpPrice}\n')
 print(f'Mountain View:\n{bdmvPrice}\n')
 print(f'San Mateo:\n{bdsmPrice}\n')
 
-#Statistics
+#Quantile
+df=pd.DataFrame(result)
+dfrc=pd.DataFrame(bdrc)
+dfmp=pd.DataFrame(bdmp)
+dfmv=pd.DataFrame(bdmv)
+dfsm=pd.DataFrame(bdsm)
+
+boxpop=df['Price'].quantile([0.25,0.50,0.75])#Quartiles of Price
+boxrc=dfrc['Price'].quantile([0.25,0.50,0.75])
+boxmp=dfmp['Price'].quantile([0.25,0.50,0.75])
+boxmv=dfmv['Price'].quantile([0.25,0.50,0.75])
+boxsm=dfsm['Price'].quantile([0.25,0.50,0.75])
+
+print(f'Population:\n{boxpop}\n\n\
+Redwood City:\n{boxrc}\n\n\
+Menlo Park:\n{boxmp}\n\n\
+Mountain View:\n{boxmv}\n\n\
+Redwood City:\n{boxsm}\n\n')
