@@ -28,7 +28,7 @@ This project is an attempt at data science. It uses web scraping and statistical
 1. Collect objects/data from HTML5 with Requests.
 2. Parse data (eg. date, winning-numbers, number) with Beautiful Soup.
 3. Draw informations with Pandas and Matplotlib.
-4. Convey information about the population through statistics.
+4. Convey information about the population through statistics tests.
 5. Write a conclusion and document report.
 ---
 ### Data
