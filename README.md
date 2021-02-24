@@ -32,7 +32,7 @@ This project is an attempt at data science. It uses web scraping and statistical
 5. Write a conclusion and document report.
 ---
 ### Data
-Data are retrieved from website by web scraping in real time by python. Then converted from data frame into csv and stored in database folder. And summary are saved in the xlsx file named 'TABLENOVA'.
+Data are retrieved from website by web scraping in real time by python. Then converted from data frame into csv and stored in 'database' folder. And summary are saved in the xlsx file named 'TABLENOVA'.
 ### Visuals
 Images and process of trimming result are saved in folder 'supplementals'.
 ### Conclusion
