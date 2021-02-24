@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import math
+import statistics
+
 #Imports
 #Redwood City
 dfrc=pd.read_csv(r'Redwood_City\Apartment(Redwood_City).csv',index_col=0)
@@ -23,7 +27,7 @@ result=pd.concat(frame)
 #print("Vacancy in all selected Apartments:\n",result)
 popPrices=result["Price"]
 pop=popPrices.describe()
-print(f'Population:\n{pop}\n')
+#print(f'Population:\n{pop}\n')
 
 #Sample Bedroom Available - 
 bdrcPrice=bdrc.describe()
@@ -31,10 +35,10 @@ bdmpPrice=bdmp.describe()
 bdmvPrice=bdmv.describe()
 bdsmPrice=bdsm.describe()
 
-print(f'Redwood City:\n{bdrcPrice}\n')
-print(f'Menlo Park:\n{bdmpPrice}\n')
-print(f'Mountain View:\n{bdmvPrice}\n')
-print(f'San Mateo:\n{bdsmPrice}\n')
+#print(f'Redwood City:\n{bdrcPrice}\n')
+#print(f'Menlo Park:\n{bdmpPrice}\n')
+#print(f'Mountain View:\n{bdmvPrice}\n')
+#print(f'San Mateo:\n{bdsmPrice}\n')
 
 #Quantile
 df=pd.DataFrame(result)
@@ -42,15 +46,23 @@ dfrc=pd.DataFrame(bdrc)
 dfmp=pd.DataFrame(bdmp)
 dfmv=pd.DataFrame(bdmv)
 dfsm=pd.DataFrame(bdsm)
-
+#print(df)
 boxpop=df['Price'].quantile([0.25,0.50,0.75])#Quartiles of Price
 boxrc=dfrc['Price'].quantile([0.25,0.50,0.75])
 boxmp=dfmp['Price'].quantile([0.25,0.50,0.75])
 boxmv=dfmv['Price'].quantile([0.25,0.50,0.75])
 boxsm=dfsm['Price'].quantile([0.25,0.50,0.75])
-
+'''
 print(f'Population:\n{boxpop}\n\n\
 Redwood City:\n{boxrc}\n\n\
 Menlo Park:\n{boxmp}\n\n\
 Mountain View:\n{boxmv}\n\n\
-Redwood City:\n{boxsm}\n\n')
+San Mateo:\n{boxsm}\n\n')
+'''
+'''
+x=[]
+for popsq in popPrices:
+    x.append(math.pow(popsq - xpop,2))
+#print(x)
+print(statistics.mean(x))
+'''
