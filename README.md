@@ -17,12 +17,13 @@ This project is an attempt at data science. It uses web scraping and statistical
 - Beautiful Soup (BS4)
 - Requests
 - Pandas
+- NumPy
 - Matplotlib
 
 ### Prerequisite/Familiarities
 - HTML5
 - Web Browser 'Inspect'
-- Basic Statistics
+- Basic Statistics and One-Way ANOVA
 ---
 ### Program Process
 1. Collect objects/data from HTML5 with Requests.
@@ -37,3 +38,4 @@ Data are retrieved from website by web scraping in real time by python. Then con
 Images and process of trimming result are saved in folder 'supplementals'.
 ### Conclusion
 Findings shows and supports that local population does infact influence the rental prices in each selected cities (Redwood City, Menlo Park, Mountain View, San Mateo).
+The more population, the lower the prices of rent becomes (Redwood City, Menlo Park, Mountain View); while population is less, the prices of rent increases (Menlo Park).
