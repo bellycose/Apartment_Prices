@@ -32,6 +32,8 @@ This project is an attempt at data science. It used web scraping and statistical
 4. Convey information about the population through statistics tests.
 5. Write a conclusion and document report.
 ---
+If you want to read my report, there is a pdf file on the repository.
+
 ### Data
 Data are retrieved from website by web scraping in real time by python. Then converted from data frame into csv and stored in 'database' folder. And summary are saved in the xlsx file named 'TABLENOVA'.
 ### Visuals
